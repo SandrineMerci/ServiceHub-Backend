@@ -13,7 +13,12 @@ import Booking from "./models/Booking.js";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+const corsOptions = {
+  allowedHeaders: ["Authorization", "Content-Type"],
+  methods: ["GET", "POST", "PUT", "UPDATE", "DELETE"],
+  origin: ["http://localhost:5173", "https://service-hub-frontend.vercel.app"], // Allow frontend
+};
+app.use(cors(corsOptions));
 app.use(express.json());
 
 app.get("/", (req, res) => res.send("ServiceHubMarketplace API"));

@@ -24,16 +24,16 @@ mongoose
   }));
   
     const services = [
-        { id: 1, title: "Car Repair", priceRange: "50-150", location: "Kigali City", category: "repairing" },
-        { id: 2, title: "Phone Repair", priceRange: "30-80", location: "Los Angeles", category: "repairing" },
-        { id: 3, title: "Home Wiring", priceRange: "100-300", location: "Chicago", category: "electrical" },
-        { id: 4, title: "Appliance Repair", priceRange: "40-120", location: "Houston", category: "electrical" },
-        { id: 5, title: "Home Cleaning", priceRange: "80-200", location: "San Francisco", category: "cleaning" },
-        { id: 6, title: "Carpet Cleaning", priceRange: "60-150", location: "Seattle", category: "cleaning" },
-        { id: 7, title: "Math Tutoring", priceRange: "25-70", location: "Boston", category: "education" },
-        { id: 8, title: "English Tutoring", priceRange: "20-60", location: "Miami", category: "education" },
-        { id: 9, title: "Personal Chef", priceRange: "120-500", location: "Las Vegas", category: "cooking" },
-        { id: 10, title: "Meal Prep", priceRange: "70-200", location: "Denver", category: "cooking" },
+        { id: 1, title: "Car Repair", priceRange: "50-150", location: "Rwanda", category: "repairing" },
+        { id: 2, title: "Phone Repair", priceRange: "30-80", location: "Rwanda", category: "repairing" },
+        { id: 3, title: "Home Wiring", priceRange: "100-300", location: "Rwanda", category: "electrical" },
+        { id: 4, title: "Appliance Repair", priceRange: "40-120", location: "Rwanda", category: "electrical" },
+        { id: 5, title: "Home Cleaning", priceRange: "80-200", location: "Rwanda", category: "cleaning" },
+        { id: 6, title: "Carpet Cleaning", priceRange: "60-150", location: "Rwanda", category: "cleaning" },
+        { id: 7, title: "Math Tutoring", priceRange: "25-70", location: "Rwanda", category: "education" },
+        { id: 8, title: "English Tutoring", priceRange: "20-60", location: "Rwanda", category: "education" },
+        { id: 9, title: "Personal Chef", priceRange: "120-500", location: "Rwanda", category: "cooking" },
+        { id: 10, title: "Meal Prep", priceRange: "70-200", location: "Rwanda", category: "cooking" },
       ];
       
 
